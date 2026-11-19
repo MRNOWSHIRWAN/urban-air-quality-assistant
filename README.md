@@ -121,5 +121,5 @@ the Open-Meteo Air Quality API on the US EPA AQI scale - model estimates, not
 personal measurements. AI: Google Gemini (free tier) called server-side; it
 only selects action IDs from a pre-written, source-checked action library and
 produces no free-text advice. Household health details stay on the server and
-are never sent to the AI model; the app stores nothing users enter. Rate
+are never sent to the AI model; the app itself stores nothing users enter. Rate
 limiting is per serverless instance (abuse mitigation, not a spending cap).
