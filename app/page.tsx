@@ -125,8 +125,9 @@ export default function Home() {
         EPA/AirNow-sourced action library; all guidance text shown is
         pre-written and source-checked, not generated. Household health
         details are used only to add local guidance on our server and are
-        never sent to the AI model. This app does not store anything you
-        enter.
+        never sent to the AI model. This app itself does not save what you
+        enter (no account or database); requests are processed by the
+        hosting and AI providers under their standard terms.
       </p>
 
       <form onSubmit={onSubmit} className="space-y-4" aria-label="Air quality plan form">
